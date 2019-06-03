@@ -2,3 +2,19 @@
   font-family: sans-serif;
   text-align: center;
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #34495e;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-top: 1px solid #2ecc71;
+}
